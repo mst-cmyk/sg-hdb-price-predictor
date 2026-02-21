@@ -41,7 +41,7 @@ with col2:
     st.subheader("📅 Lease & Timing")
     flat_model = st.selectbox("Flat Model", ['Improved', 'New Generation', 'Model A', 'Standard', 'Premium Apartment', 'Maisonette', 'Apartment'])
     lease_commence_date = st.number_input("Lease Commence Year", min_value=1966, max_value=2024, value=2015)
-    sale_year = st.selectbox("Planned Sale Year", [2025, 2026])
+    sale_year = st.selectbox("Planned Sale Year", [2026, 2027, 2028])
     sale_month = st.slider("Planned Sale Month", 1, 12, 6)
 
 # ==========================================
